@@ -80,7 +80,9 @@ export const CartasEncontradas = ({set:setKeyword2, keywords="", tipoBusqueda=0}
     {(tipoBusqueda===1)&&
             data.map((item)=>{
             return(
-            <Card key = {item.id} style={{ width: '100%' }} className=" animate__animated animate__fadeIn">
+            <>
+            {/* <h4 className="animate__animated animate__fadeIn">HOLA</h4> */}
+            <Card key = {item.id} style={{ width: '100%' }} className=" animate__animated animate__fadeIn"> 
                 <Card.Body>
                 <Card.Title>{item.titulo}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{item.autor}</Card.Subtitle>
@@ -93,6 +95,7 @@ export const CartasEncontradas = ({set:setKeyword2, keywords="", tipoBusqueda=0}
                 <Card.Link href="#">Citar</Card.Link>
                 </Card.Body>
             </Card>
+            </>
         )})
     }
     {(tipoBusqueda===2)&&

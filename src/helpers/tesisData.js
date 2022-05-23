@@ -2,20 +2,7 @@
 
 
 const tesisData = [
-    {
-        titulo: "Estudio de Condiciones Experimentales para la Mezcla de Ondas en Cristales Fotorrefractivos",
-        tipo: "tesis",
-        resumen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-        nivel: "maestria",
-        anio: 2010,
-        autor: "Lina Mireya Castro Castañeda",
-        tutor: "Jorge Enrique Rueda P",
-        cotutor: "",
-        palabrasClave: ["Cristales","Fotorrefractivos","Mezcla de Ondas"],
-        areas: ["Óptica"],
-        estado: "concluido",
-        id: 1
-    },
+  
     {
         titulo: "Métricas de enfoque y hologramas de Fourier de orden Fraccionario para la reconstrucción de superficies en 3D sin desplazamiento mecánico",
         tipo: "tesis",
@@ -26,7 +13,21 @@ const tesisData = [
         tutor: "Jorge Enrique Rueda P",
         cotutor: "",
         palabrasClave: ["Fourier","Fraccionario","Reconstrucción","Deep Learning","Inteligencia Artificial"],
-        areas: ["Óptica","Inteligencia Artificial"],
+        areas: "Óptica",
+        estado: "concluido",
+        id: 1
+    },
+    {
+        titulo: "Estudio de Condiciones Experimentales para la Mezcla de Ondas en Cristales Fotorrefractivos",
+        tipo: "tesis",
+        resumen: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        nivel: "maestria",
+        anio: 2010,
+        autor: "Lina Mireya Castro Castañeda",
+        tutor: "Jorge Enrique Rueda P",
+        cotutor: "",
+        palabrasClave: ["Cristales","Fotorrefractivos","Mezcla de Ondas"],
+        areas: "Óptica",
         estado: "concluido",
         id: 2
     },
@@ -40,7 +41,7 @@ const tesisData = [
         tutor: "Jorge Enrique Rueda P",
         cotutor: "",
         palabrasClave: ["Cristales","BSO","Polarización","transversal","longitudinal","Fotorrefractivos"],
-        areas: ["Óptica","Cristales Fotorrefractivos"],
+        areas: "Óptica",
         estado: "concluido",
         id: 3
     },
@@ -53,8 +54,8 @@ const tesisData = [
         autor: "Maria Alejandra Guerrero Vanegas",
         tutor: "Jorge Enrique Rueda P",
         cotutor: "",
-        palabrasClave: ["encriptación","transformada","conjunta","criptogramas","procesador","optico"],
-        areas: ["Óptica","criptografía","procesamiento"],
+        palabrasClave: ["encriptación","transformada","conjunta","criptogramas","procesador","optico","criptografia"],
+        areas: "Óptica",
         estado: "concluido",
         id: 4
     },
@@ -67,8 +68,8 @@ const tesisData = [
         autor: "Belcy Rocío Portilla Rojas",
         tutor: "Blanca Cecilia Canas Orduz",
         cotutor: "",
-        palabrasClave: ["neutrinos","majorana","materia oscura","freeze-in"],
-        areas: ["modelo estandar","materia oscura","altas energías"],
+        palabrasClave: ["neutrinos","majorana","materia oscura","freeze-in","modelo estandar","altas energias"],
+        areas: "mecánica cuántica",
         estado: "concluido",
         id: 5
     },
@@ -81,8 +82,8 @@ const tesisData = [
         autor: "Bibiana Bohada Sanabria",
         tutor: "Francisco Henry Cabrera Zambrano",
         cotutor: "",
-        palabrasClave: ["rayos","sismica","trazado"],
-        areas: ["geofísica","prospección"],
+        palabrasClave: ["rayos","sismica","trazado","geofísica","prospección"],
+        areas: "geofísica",
         estado: "concluido",
         id: 6
     },
