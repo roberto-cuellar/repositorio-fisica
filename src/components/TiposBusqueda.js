@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {Button, ButtonGroup,Form} from 'react-bootstrap'
 import { CartasEncontradas } from './CartasEncontradas';
 
@@ -7,8 +7,7 @@ export const TiposBusqueda = () => {
     const [textField,setTextField] = useState(false); ///For search by keyword
     const [inputValue, setInputValue] = useState(""); /// state of the text input
     const [tipoBusqueda,setTipoBusqueda] = useState(0); // Search type 0, its general results
-
-
+    const [buscar,setBuscar]=useState(false);
 
     const handleInputChange = (e) =>{
         setInputValue(e.target.value);

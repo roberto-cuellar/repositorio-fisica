@@ -1,5 +1,5 @@
 import {Navbar,Container, Nav,NavDropdown} from 'react-bootstrap'
-import REPOUP from '../SVG/REPOUP3.svg'
+import REPOUP from '../SVG/REPOUP4.svg'
 
 export const NavBarPrincipal = () => {
   return (

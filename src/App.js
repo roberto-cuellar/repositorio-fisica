@@ -3,15 +3,14 @@ import {Navbar,Container, Nav,NavDropdown} from 'react-bootstrap'
 import { NavBarPrincipal } from './components/NavBarPrincipal';
 
 import { TesisTitle } from './components/TesisTitle';
-import { TiposBusqueda } from './components/TiposBusqueda';
+import { TiposBusqueda2 } from './components/TiposBusqueda2';
 function App() {
   return (
     <>
       <NavBarPrincipal />
       <Container>
         <TesisTitle />
-        <TiposBusqueda />
-
+        <TiposBusqueda2 />
       </Container>
     </>
   );
