@@ -50,7 +50,7 @@ export const CartasEncontradas = ({set:setKeyword2, keywords="", tipoBusqueda=0}
      
   return (
     <>
-    <h3 >{tipoBusquedaTitulo}</h3>
+    <h3 className='mt-3'>{tipoBusquedaTitulo}</h3>
     <p>Seleccione una opción:</p>
     {selectionVector.map((item)=>{
       return(<Button key={item} variant="info animate__animated animate__fadeIn mx-1"
