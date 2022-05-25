@@ -1,0 +1,133 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.cardMin{
+    display: inline-block;
+    height: 40px;
+    
+}
+/* blogitems */
+
+.contenedor{
+    overflow: hidden;
+}
+.expand{
+    transition: transform 0.2s ease-in-out;
+}
+
+.expand:hover{  
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.blogAutor{
+    padding-top: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.blogAutor span{
+    position: relative;
+    right: 0;
+    font-size: 10px;
+}
+
+.blogItemTitle{
+    font-weight: 800;
+}
+
+.buttonBlogs{
+    display: block;
+    width: 100%;
+
+}
+.links{
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+.footerGeneral a{
+    text-decoration: none;
+    color:aqua;
+    cursor: pointer;
+    
+}
+
+.footerGeneral a:visited{
+    color:aqua;    
+}
+
+.footerGeneral small{
+    position: relative;
+    left: 80%;
+}
+
+.footerGeneral{
+    background-color: black;
+    color: gray;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 8%;
+    text-align: justify;
+    position: relative;
+    bottom: 0;
+}
+
+.footerGeneral p{
+    opacity: 0.5;
+}
+
+.footerIconBrand{
+    margin-bottom: 10px;
+}
+
+.footerGeneral h5{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.footerQuickLinks {
+    margin-bottom: 0px;
+    text-align: center;
+    padding-right: 8%;
+}
+
+.footerQuickLinks p{
+    margin-bottom: 0px;
+}
+
+.footerSubtitle{
+    font-size: 12px;
+}
+
+.footerTitle{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px
+}
+
+.socialMedia{
+    text-align: center;
+}
+
+.socialMedia svg{
+    opacity: 0.5;
+    /* position: relative; */
+    /* left: 40%; */
+    width: 35px;
+    color: rgb(214, 214, 214);
+    fill: rgb(214, 214, 214);
+}
+
+.socialMedia svg:hover{
+    fill:  #5BC5EE;
+    color: #5BC5EE;
+    cursor: pointer;
+}

@@ -16,6 +16,9 @@ import { RegistrarseScreen } from './screens/RegistrarseScreen';
 import { TesisScreen } from './screens/TesisScreen';
 import { TrabajosScreen } from './screens/TrabajosScreen';
 import { PublicacionesScreen } from './screens/PublicacionesScreen';
+import { BlogScreen } from './screens/BlogScreen';
+import { FooterGeneral } from './components/FooterGeneral';
+import { BlogTest1 } from './components/BlogTest1';
 
 function App() {
   return (
@@ -30,8 +33,12 @@ function App() {
               <Route exact path="/tesis" element = {<TesisScreen />}/>
               <Route exact path="/trabajos" element = {<TrabajosScreen />}/>
               <Route exact path="/publicaciones" element = {<PublicacionesScreen />}/>
+              <Route exact path="/blog" element = {<BlogScreen />}/>
+              <Route exact path="/blogTest" element = {<BlogTest1/>}/>
               <Route exact path='*' element={<HomeScreen /> } />
+              
           </Routes>
+          <FooterGeneral />
       </div>
     </Router> 
 

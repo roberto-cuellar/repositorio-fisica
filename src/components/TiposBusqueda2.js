@@ -18,7 +18,7 @@ export const TiposBusqueda2 = React.memo(() => {
     const {dataNoFiltrada,variedades,loading} = useTesisBusqueda({tipoBusqueda,tipoBusquedaVector});    
     const [filtro,setFiltro] = useState("");
     const {dataFiltrada} = useFiltrosTesis({filtro,dataNoFiltrada,tipoBusqueda,tipoBusquedaVector});
-    console.log("Data Filtrada: ",dataFiltrada)
+    // console.log("Data Filtrada: ",dataFiltrada)
     
 
   return (

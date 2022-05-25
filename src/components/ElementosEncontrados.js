@@ -2,7 +2,7 @@ import React from 'react'
 import {Card,ListGroup,ListGroupItem,Button} from 'react-bootstrap'
 
 export const ElementosEncontrados = ({filtro,data,tipoBusqueda}) => {
-    console.log("tipo busqueda: ",tipoBusqueda)
+    // console.log("tipo busqueda: ",tipoBusqueda)
   return (
     <>{!!data&&(
         data.map((item)=>{
