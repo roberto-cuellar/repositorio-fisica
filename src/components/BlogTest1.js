@@ -1,9 +1,18 @@
 import React from 'react'
+import {dataBlogMainPage} from '../helpers/blogData.js'
+import { Container, Card, Button, CardGroup, Row,Col } from 'react-bootstrap'
+import { HeaderBlogs } from './HeaderBlogs'
 
 export const BlogTest1 = () => {
+  
+  
+  
+
   return (
-    <div>
-        <h1>TEST BLOG 1</h1>
-    </div>
+    <>
+        
+         <HeaderBlogs data={dataBlogMainPage[0]}/> {/*Crear la carta nuevamente como header de la página del blog */}
+
+    </>
   )
 }
